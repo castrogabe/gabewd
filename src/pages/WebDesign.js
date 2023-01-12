@@ -6,7 +6,7 @@ function WebDesign() {
   return (
     <>
       <div class='keyboard'>
-        <img id='image' src='/images/keyBoard.jpg' width='100%' />
+        <img id='image' src='/images/keyBoard.jpg' width='100%' alt='' />
       </div>
       <br />
 
