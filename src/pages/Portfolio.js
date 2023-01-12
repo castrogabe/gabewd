@@ -51,7 +51,7 @@ function Portfolio() {
             </div>
           </Col>
           <Col md={6} className='box'>
-            <img src='/images/door.JPG' alt='' className='img-portfolio' />
+            <img src='/images/door.jpg' alt='' className='img-portfolio' />
           </Col>
         </Row>
       </Container>
