@@ -23,7 +23,7 @@ function Home() {
           </p>
           <br />
 
-          <h4>Web Design</h4>
+          <h4>Web Design and Hosting</h4>
           <p>
             A striking and well organized web page layout will greatly enhance
             your appeal to your target audience. At first glance you need to
@@ -32,6 +32,11 @@ function Home() {
             <br />I can add links to Social Media, favorite images, video,
             slider components to your website, also make if fully responsive
             using Bootstrap.
+            <br />
+            This website is hosted on AWS Amplify with the code pushed from
+            Github where you can find the repo with all the code. If you were to
+            hire me as a developer for your website your code would also be
+            pushed to Github so you would also have access to the code.
           </p>
           <br />
 
