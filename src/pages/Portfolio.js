@@ -17,6 +17,9 @@ function Portfolio() {
           <Col md={6} className='box'>
             <h2>exoticwoodpen</h2>
             <p>
+              <i class='fas fa-layer-group'></i> MERN STACK / Bootstrap
+            </p>
+            <p>
               An internationally recognized pen turner, and a growing following
               on YouTube. I have been turning pens for over 18 years, and my Pen
               Segmenting, Bespoke Pen Videos have been viewed all over the world
@@ -29,29 +32,6 @@ function Portfolio() {
                 Website
               </a>
             </div>
-          </Col>
-        </Row>
-      </Container>
-
-      <Container>
-        <Row>
-          <Col md={6} className='box'>
-            <h2>Yeates Painting and Decorating</h2>
-            <p>
-              30+ years in business, High Desert Painting Contractor. Yeates
-              Painting is reliable, trustworthy, prompt and neat and clean. It
-              is a business with many repeat customers, we also offer expert
-              color assistance.
-            </p>
-            <br />
-            <div className='details'>
-              <a className='my-button' href='https://yeatespainting.com'>
-                Website
-              </a>
-            </div>
-          </Col>
-          <Col md={6} className='box'>
-            <img src='/images/door.jpg' alt='' className='img-portfolio' />
           </Col>
         </Row>
       </Container>

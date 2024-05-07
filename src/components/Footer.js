@@ -9,7 +9,7 @@ function Footer() {
         <Col md={6}>
           <ul className='list-unstyled'>
             <li>
-              <a href='mailto:exoticwoodpen@gmail.com' className='email'>
+              <a href='mailto:gabewebdevelopment@gmail.com' className='email'>
                 <i className='fa fa-envelope'></i> Email Me
               </a>
             </li>

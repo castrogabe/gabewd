@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 function Header() {
@@ -32,6 +32,16 @@ function Header() {
                 <i class='fas fa-layer-group'></i> Web Design
               </Nav.Link>
             </LinkContainer>
+
+            {/* Dropdown */}
+            <NavDropdown title='Deployment' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='/mernAws'>MERN AWS EC2</NavDropdown.Item>
+
+              <NavDropdown.Divider />
+              <NavDropdown.Item href='/mernRender'>
+                Mern Render
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>

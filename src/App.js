@@ -1,11 +1,17 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
+
+// components
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Home from './pages/Home';
+
+// pages
 import About from './pages/About';
-import WebDesign from './pages/WebDesign';
+import Home from './pages/Home';
+import MernAWS from './pages/MernAWS';
+import MernRender from './pages/MernRender';
 import Portfolio from './pages/Portfolio';
+import WebDesign from './pages/WebDesign';
 
 function App() {
   return (
@@ -19,6 +25,8 @@ function App() {
               <Route path='/about' element={<About />} />
               <Route path='/portfolio' element={<Portfolio />} />
               <Route path='/webdesign' element={<WebDesign />} />
+              <Route path='/mernAws' element={<MernAWS />} />
+              <Route path='/mernRender' element={<MernRender />} />
             </Routes>
           </Container>
         </div>

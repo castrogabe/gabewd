@@ -15,7 +15,7 @@ function Home() {
           <h4>The Website Development Process and Basic Languages Used.</h4>
           <p>
             With half the world population online and using the internet, my
-            goal is to help bring the world to your <strong>Web Site</strong>{' '}
+            goal is to help bring the world to your <strong>Website</strong>{' '}
             thru interaction with your favorite <strong>Social Media</strong>{' '}
             platforms and
             <strong> SEO</strong> Search Engine Optimization to help your market
@@ -40,7 +40,7 @@ function Home() {
           </p>
           <br />
 
-          <h4>Need help building a web site or updating your site?</h4>
+          <h4>Need help building a website or updating your site?</h4>
           <p>
             Make note of what you feel works well and what falls short, and then
             identify your goals for what you would like to include in your site.
