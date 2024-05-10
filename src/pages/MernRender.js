@@ -13,6 +13,54 @@ const MernRender = () => {
         <div className='box'>
           <h1>MERN Stack on Render</h1>
         </div>
+
+        <Row md={12} className='box'>
+          <h1>MongoDB Network access</h1>
+          <h4>
+            <strong>
+              <span style={{ color: 'blue' }}>+ ADD IP ADDRESS</span>
+            </strong>
+          </h4>
+          <img
+            src='/images/network access.png'
+            alt='network access'
+            className='img-fluid'
+          />
+        </Row>
+
+        <Row md={12} className='box'>
+          <h1>Allow Access From Anywhere</h1>
+          <h4>0.0.0.0/0</h4>
+          <h4>all</h4>
+          <img
+            src='/images/allow access.png'
+            alt='access'
+            className='img-fluid'
+          />
+        </Row>
+
+        <Row md={12} className='box'>
+          <h1>Allow Access From Anywhere</h1>
+          <h4>0.0.0.0/0</h4>
+          <h4>all</h4>
+          <img
+            src='/images/whitelist.png'
+            alt='whitelist'
+            className='img-fluid'
+          />
+        </Row>
+
+        <Row md={12} className='box'>
+          <h1>Network Access</h1>
+          <img
+            src='/images/network access all.png'
+            alt='access'
+            className='img-fluid'
+          />
+        </Row>
+
+        <hr />
+
         <Row md={12} className='box'>
           <h1>Render Dashboard</h1>
           <h4>
