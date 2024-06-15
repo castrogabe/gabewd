@@ -294,3 +294,12 @@ folder: pages
 Home.js > updated Jumbotron
 
 index.css > updated with typewriter-effect
+
+# 13th Commit-Update Secret Word/userRoutes
+
+BACKEND
+folder: routes
+userRoutes > updated with deleteOne Delete User
+
+.env.example > updated with new secret word
+.config.js > updated with new secret word

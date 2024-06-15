@@ -4,7 +4,7 @@ dotenv.config();
 
 module.exports = {
   PORT: process.env.PORT || 8000,
-  JWT_SECRET: process.env.JWT_SECRET || 'developerProfile',
+  JWT_SECRET: process.env.JWT_SECRET || 'webdevsecret',
   MONGODB_URL: process.env.MONGODB_URI || 'mongodb://localhost/frontend',
 
   auth: {

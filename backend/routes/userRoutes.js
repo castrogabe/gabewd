@@ -103,6 +103,22 @@ userRouter.put(
   })
 );
 
+// DELETE user by ID (admin only)
+userRouter.delete(
+  '/:id',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const user = await User.findById(req.params.id);
+    if (user) {
+      await User.deleteOne({ _id: req.params.id });
+      res.send({ message: 'User Deleted' });
+    } else {
+      res.status(404).send({ message: 'User Not Found' });
+    }
+  })
+);
+
 // User sign-in
 userRouter.post(
   '/signin',
