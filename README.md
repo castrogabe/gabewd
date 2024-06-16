@@ -304,7 +304,7 @@ userRoutes > updated with deleteOne Delete User
 .env.example > updated with new secret word
 .config.js > updated with new secret word
 
-# 14 Commit-Deployment/Render ** Final **
+# 14th Commit-Deployment/Render ** Final **
 
 FRONTEND
 cd root > npm init (this creates a {}package.json in the root)
