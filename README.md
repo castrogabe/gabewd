@@ -303,3 +303,15 @@ userRoutes > updated with deleteOne Delete User
 
 .env.example > updated with new secret word
 .config.js > updated with new secret word
+
+# 14 Commit-Deployment/Render ** Final **
+
+FRONTEND
+cd root > npm init (this creates a {}package.json in the root)
+. add your projects name "gabewd"
+. enter through the questions
+. make sure it says deployment
+. edit "scripts"
+. push code to github before next step
+. https://render.com - create account / Connect to GitHub for repository
+. https://www.gabewd.com - Deployment dropdown > MernRender
