@@ -328,3 +328,11 @@ fix package.json in root to say deployment
 "bugs": {
 "url": "https://github.com/castrogabe/gabewd/deployment"
 },
+
+# 16th Commit-Deployment update backend package.json
+
+BACKEND
+package.json > updated => "scripts": {
+"start": "nodemon server.js",
+"test": "echo \"Error: no test specified\" && exit 1"
+},
