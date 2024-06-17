@@ -39,10 +39,9 @@ app.use('/api/summary', summaryRouter);
 app.use('/api/messages', messageRouter);
 
 // Serve frontend build
-app.use(express.static(path.join(__dirname, '/frontend/build')));
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
-);
+const frontendPath = path.join(__dirname, '../frontend/build');
+app.use(express.static(frontendPath));
+app.get('*', (req, res) => res.sendFile(path.join(frontendPath, 'index.html')));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
