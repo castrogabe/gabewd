@@ -7,7 +7,7 @@ const seedRouter = require('./routes/seedRoutes.js');
 const userRouter = require('./routes/userRoutes.js');
 const uploadRouter = require('./routes/uploadRoutes.js');
 const websiteRouter = require('./routes/websiteRoutes.js');
-const summaryRouter = require('./routes/summaryRoutes');
+const summaryRouter = require('./routes/summaryRoutes.js');
 const messageRouter = require('./routes/messageRoutes.js');
 
 const config = require('./config.js');
@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 // Serve the uploads directory statically
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// routes
+// API routes
 app.use('/api/upload', uploadRouter);
 app.use('/api/seed', seedRouter);
 app.use('/api/users', userRouter);
@@ -38,12 +38,18 @@ app.use('/api/websites', websiteRouter);
 app.use('/api/summary', summaryRouter);
 app.use('/api/messages', messageRouter);
 
+// Serve frontend build
+app.use(express.static(path.join(__dirname, '/frontend/build')));
+app.get('*', (req, res) =>
+  res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
+);
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });
 });
 
-const port = config.PORT;
+const port = config.PORT || 5000;
 app.listen(port, () => {
   console.log(`serve at http://localhost:${port}`);
 });

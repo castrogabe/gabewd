@@ -306,8 +306,8 @@ userRoutes > updated with deleteOne Delete User
 
 # 14th Commit-Deployment/Render ** Final **
 
-FRONTEND
 cd root > npm init (this creates a {}package.json in the root)
+. whitelist MongoDB
 . add your projects name "gabewd"
 . enter through the questions
 . make sure it says deployment
@@ -316,7 +316,13 @@ cd root > npm init (this creates a {}package.json in the root)
 . https://render.com - create account / Connect to GitHub for repository
 . https://www.gabewd.com - Deployment dropdown > MernRender
 
-# 15th Commit-Deployment/Render ** Final **
+# 15th Commit-Deployment/Render Update Server ** Final **
+
+BACKEND
+server.js > updated => app.use(express.static(path.join(**dirname, '/frontend/build')));
+app.get('\*', (req, res) =>
+res.sendFile(path.join(**dirname, '/frontend/build/index.html'))
+);
 
 fix package.json in root to say deployment
 "bugs": {
