@@ -36,10 +36,7 @@ function Header() {
       <ToastContainer position='bottom-center' limit={1} />
       <Navbar className='header' variant='dark' expand='lg'>
         <LinkContainer to='/'>
-          <Navbar.Brand>
-            {/* <img src='/images/gabelogo.png' alt='logo'></img> */}
-            <i className='fas fa-home'></i> GabeWD
-          </Navbar.Brand>
+          <Navbar.Brand>&lt;GabeWD /&gt;</Navbar.Brand>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls='basic-navbar-nav' />

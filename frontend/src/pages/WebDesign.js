@@ -68,6 +68,9 @@ function WebDesign() {
                   your website design.
                 </li>
               </ol>
+              <a href='/contact' className='my-button'>
+                Contact Me Today
+              </a>
             </div>
           </Col>
           <Col md={6}>

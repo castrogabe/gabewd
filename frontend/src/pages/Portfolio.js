@@ -72,12 +72,17 @@ export default function Home() {
           <title>GabeWD Portfolio</title>
         </Helmet>
         <br />
-        <div className='box'>
-          <p>
-            ~ Discover the creativity and innovation in our meticulously crafted
-            website portfolio. Dive into our collection and get inspired! ~
-          </p>
-        </div>
+        <Row className='box'>
+          <Col md={6}>
+            <p>
+              Discover the creativity and innovation in our meticulously crafted
+              website portfolio. Dive into our collection and get inspired!
+            </p>
+            <a href='/contact' className='my-button'>
+              Contact Me Today
+            </a>
+          </Col>
+        </Row>
 
         <br />
         <Row>

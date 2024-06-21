@@ -338,3 +338,14 @@ package.json > updated => "scripts": {
 },
 
 # 17th Commit-Update server for deployment
+
+# 18th Commit-Update Contact
+
+FRONTEND
+folder: components
+Header.js > updated &lt;GabeWD /&gt;
+
+folder: pages
+Contact.js > updated
+Portfolio.js > updated
+WebDesign.js > updated

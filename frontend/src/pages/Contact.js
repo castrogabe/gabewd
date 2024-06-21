@@ -65,7 +65,7 @@ export default function Contact() {
           </Form.Group>
 
           <Form.Group className='mb-3' controlId='subject'>
-            <Form.Label>Subject / Website</Form.Label>
+            <Form.Label>Website / Project Description</Form.Label>
             <Form.Control
               placeholder='ex: What type of website you are interested in?'
               value={subject}

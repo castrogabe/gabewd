@@ -5,7 +5,7 @@ const BottomFooter = () => {
   return (
     <div className='bottom-footer'>
       <Row>
-        <Col className='text-center'>&copy; your.com</Col>
+        <Col className='text-center'>&copy; gabewd.com</Col>
       </Row>
     </div>
   );
